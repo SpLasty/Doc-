@@ -1,0 +1,141 @@
+
+.card{
+    box-shadow: 0 0 2px gray;
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.650);
+    padding:0 !;
+    margin:0  !important;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.664)
+
+}
+
+.normal-text{
+    font-size: 1rem;
+}
+.authenticate{
+    height : 100vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.form{
+    width: 400px;
+    height: 60vh;
+    
+}
+
+/* Overriding Antd styles */
+input{
+    border-radius: 2px !important;
+    border:1px solid grey !important;
+    height: 40px !important;
+}
+
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid grey !important;
+}
+
+label{
+    font-size: 15px !important;
+    color:black !important;
+}
+
+.ant-form-item{
+    margin: 10px 0 !important;
+}
+
+.ant-picker-input input{
+    border: none !important;
+}
+
+.ant-picker{
+    border-radius: 2px !important;
+    border:1px solid grey !important;
+    height: 40px !important;
+    box-shadow: none !important;
+}
+/* Common styling */
+.primary-button{
+    background-color: aquamarine !important;
+    border-color: aquamarine !important;
+    height: 40px !important;
+    width: 100% !important;
+    color: white !important;
+    width: max-content !important;
+}
+.full-width-button{
+    width: 100% !important
+}
+.anchor{
+    color: black !important;
+    text-decoration: underline !important;
+    font-size: 15px !important;
+    cursor: pointer !important;
+
+}
+.anchor:hover{
+    text-decoration: underline !important;
+}
+
+.loginlink{
+    color: black !important;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px !important;
+    margin-top: 3px;
+}
+
+
+.loginlink:hover{
+    text-decoration: underline !important;
+}
+
+.authenticate .card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: orangered;
+    color: palegoldenrod !important;
+    max-width: max-content !important;
+    padding: 5px;
+    margin:0 auto;
+    display:block;
+}
+
+.spinner-parent{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.40);
+    position: fixed;
+    top : 0;
+    left : 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999 ;
+}
+
+.spinner-border{
+    width: 5rem;
+    height: 5rem;
+}
+
+.doctor-title{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.804);
+    font-weight: bold;
+
+}

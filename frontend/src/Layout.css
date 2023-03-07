@@ -1,0 +1,96 @@
+.main{
+    padding: 20px;
+    height: 100vh;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+}
+
+
+.sidebar{
+    background-color: rgb(10, 18, 73);
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 20px;
+    height: 10vh;
+    
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.body{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    height: 82vh;
+    padding:15px;
+    
+}
+
+.menu-item{
+    margin-top: 30px;
+}
+
+.menu-item a{
+    color: rgba(255, 255, 255, 0.722);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.menu-item i{
+    color:rgba(255, 255, 255, 0.792);
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+.menu{
+    margin-top : 80px;
+    padding: 0 10px;
+}
+
+.active-menu-item{
+    color:white;
+    background-color: rgba(0, 208, 255, 0.193);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header-icon{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.ant-scroll-number-only-unit{
+    padding-left: -10px !important;
+    padding-bottom: -10px !important;
+}
+
+@media screen and (max-width: 758px) {
+    .menu{
+        margin: 0 20px;
+    }
+    
+}
